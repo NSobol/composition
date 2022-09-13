@@ -8,8 +8,6 @@ import Newsbox from "./newsbox/Newsbox.jsx";
  * @returns Вывод новостного блока и блока над ошибками
  */
 function Header({ dataHeader }) {
-  console.log(dataHeader);
- 
   return (
     <header>
       <Newsbox data={dataHeader} />
